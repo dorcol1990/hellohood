@@ -3,19 +3,24 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
+import Portfolio from '../../../api/portfolio';
+import { useRouter } from 'next/router';
 
 
 const Benefits = (props) => {
+  const router = useRouter()
     const [expanded, setExpanded] = React.useState(false);
 
     const handleChange = (panel) => (event, isExpanded) => {
         setExpanded(isExpanded ? panel : false);
     };
 
+    const PortfolioDetails = Portfolio.find(item => item.slug === router.query.slug)
+    
 
     return (
         <div className="wpo-benefits-section">
-            <h2>Benefits</h2>
+            <h2>{PortfolioDetails?.cTitle}</h2>
             <div className="row">
                 <div className="col-lg-12 col-12">
                     <div className="wpo-benefits-item">
@@ -25,11 +30,11 @@ const Benefits = (props) => {
                                 aria-controls="panel1bh-content"
                                 id="panel1bh-header"
                             >
-                                <Typography>Market research on our global panel with support from our experts.</Typography>
+                                <Typography>b</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.
+                                 LOOREM, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -39,7 +44,7 @@ const Benefits = (props) => {
                                 aria-controls="panel2bh-content"
                                 id="panel2bh-header"
                             >
-                                <Typography>Planning can help alleviate workplace stress and increase productivity.</Typography>
+                                <Typography>Neki tekst</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>

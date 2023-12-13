@@ -43,7 +43,7 @@ const About = (props) => {
                                 <li><i className="ti-plus"></i> Redovni domaći zadaci i vežbe sa mentorom </li>
                                 <li><i className="ti-plus"></i> Svaki učenik ili učenica su važni </li>
                                 <li><i className="ti-plus"></i> Trajanje svakog kursa je 8 nedelja </li>
-                                <li><i className="ti-plus"></i> Najistaknutiji dobijaju priliku da nastave rad na nekom od živih projekata </li>
+                                <li><i className="ti-plus"></i> Najistaknutiji dobijaju priliku za rad na projektima</li>
                             </ul>
                             <Link onClick={ClickHandler} className="theme-btn-s2" href="/kursevi">Pogledaj sve kurseve</Link>
                         </div>

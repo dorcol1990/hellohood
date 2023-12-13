@@ -9,7 +9,7 @@ import Footer from '../../components/footer';
 import Logo from '/public/images/logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
-import Benefits from '../service/single/benefits';
+import Benefits from '../portfolio-single/single/benefits';
 import ServiceSidebar from '../service/single/sidebar';
 
 
@@ -93,7 +93,7 @@ const PortfolioDetailsPage = (props) => {
                                         ))}
                                     </div>
                                 </div> */}
-                                <Benefits />
+                                <Benefits hello={'hello'} />
                             </div>
                         </div>
                         <ServiceSidebar />

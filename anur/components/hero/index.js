@@ -14,7 +14,7 @@ const Hero =() => {
                                 <h2><span>Postani</span><br /><span>Web</span><br /><span>Programer</span></h2>
                             </div>
                             <div className="btns">
-                                <Link href="/kursevi">Pogledaj naše kurseve</Link>
+                                <Link href="/kursevi" target='_blank'>Pogledaj naše kurseve</Link>
                             </div>
                         </div>
                     </div>

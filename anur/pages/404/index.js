@@ -3,7 +3,7 @@ import Navbar from '../../components/Navbar'
 import PageTitle from '../../components/pagetitle'
 import Error from '../../components/404'
 import Scrollbar from '../../components/scrollbar'
-import Logo from '/public/images/logo-3.png'
+import Logo from '/public/images/logo2.png'
 import Footer from '../../components/footer';
 
 const ErrorPage =() => {

@@ -20,7 +20,7 @@ const Benefits = (props) => {
 
     return (
         <div className="wpo-benefits-section">
-            <h2>{PortfolioDetails?.cTitle}</h2>
+            <h2>Najčešća pitanja</h2>
             <div className="row">
                 <div className="col-lg-12 col-12">
                     <div className="wpo-benefits-item">
@@ -30,11 +30,11 @@ const Benefits = (props) => {
                                 aria-controls="panel1bh-content"
                                 id="panel1bh-header"
                             >
-                                <Typography>b</Typography>
+                                <Typography>{PortfolioDetails?.pitanje1}</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                 LOOREM, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.
+                                {PortfolioDetails?.odgovor1}
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -44,12 +44,10 @@ const Benefits = (props) => {
                                 aria-controls="panel2bh-content"
                                 id="panel2bh-header"
                             >
-                                <Typography>Neki tekst</Typography>
+                                <Typography>{PortfolioDetails?.pitanje2}</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
-                                <Typography>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.
-                                </Typography>
+                                <Typography>{PortfolioDetails?.odgovor2}</Typography>
                             </AccordionDetails>
                         </Accordion>
                         <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
@@ -58,12 +56,12 @@ const Benefits = (props) => {
                                 aria-controls="panel3bh-content"
                                 id="panel3bh-header"
                             >
-                                <Typography>Those who experiment the most, are able to innovate the best.</Typography>
+                                <Typography>{PortfolioDetails?.pitanje3}</Typography>
                 
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.
+                                {PortfolioDetails?.odgovor3}
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -73,11 +71,11 @@ const Benefits = (props) => {
                                 aria-controls="panel4bh-content"
                                 id="panel4bh-header"
                             >
-                                <Typography>Understand Your Problem, You must understand the issue.</Typography>
+                                <Typography>{PortfolioDetails?.pitanje4}</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
                                 <Typography>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem pariatur iure nemo esse repellendus est quo recusandae. Delectus, maxime.
+                                {PortfolioDetails?.odgovor4}
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>

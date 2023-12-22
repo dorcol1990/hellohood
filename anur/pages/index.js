@@ -11,7 +11,7 @@ import Support from '../components/support';
 // import BlogSection from '../components/BlogSection';
 import Footer from '../components/footer';
 import Scrollbar from '../components/scrollbar';
-import Logo from '/public/images/logo.png';
+import Logo from '/public/images/logoo.png';
 
 
 const HomePage = () => {

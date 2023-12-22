@@ -45,13 +45,13 @@ export default class Header extends Component {
                       <li className="menu-item-has-children">
                         <Link onClick={ClickHandler} href="/">Početna</Link>
                       </li>
-                      <li><Link onClick={ClickHandler} href="/about">O nama</Link></li>
+                      <li><Link onClick={ClickHandler} href="/o-nama">O nama</Link></li>
                       <li className="menu-item-has-children">
                         <Link onClick={ClickHandler} href="/kursevi">Kursevi</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link onClick={ClickHandler} href="/blog-fullwidth">Blog</Link>
-                      </li>
+                      </li> */}
                       <li><Link onClick={ClickHandler} href="/contact">Kontakt</Link></li>
                     </ul>
                     

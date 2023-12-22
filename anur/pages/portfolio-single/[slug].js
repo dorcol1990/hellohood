@@ -6,7 +6,7 @@ import Scrollbar from '../../components/scrollbar'
 import Portfolio from '../../api/portfolio'
 import Services from '../../api/service'
 import Footer from '../../components/footer';
-import Logo from '/public/images/logo.png'
+import Logo from '/public/images/logo2.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import Benefits from '../portfolio-single/single/benefits';
@@ -42,22 +42,27 @@ const PortfolioDetailsPage = (props) => {
                                     <div className="row">
                                         <div className="col co-l-lg-4 col-md-4 col-sm-6 col-12">
                                             <div className="wpo-project-details-text">
-                                                <span>Trajanje kursa</span>
+                                                <span>Trajanje modula</span>
                                                 <h2>8 nedelja</h2>
+                                             <h2>Cena: 200 evra</h2>
                                             </div>
                                         </div>
                                         <div className="col co-l-lg-4 col-md-4 col-sm-6 col-12">
                                             <div className="wpo-project-details-text-3">
-                                                <span>Cena</span>
-                                                <h2>500 evra</h2>
+                                                <span>Trajanje paketa kurseva</span>
+                                                <h2>6 meseci</h2>
+                                                <h2>Cena: 500 evra</h2>
                                             </div>
                                         </div>
                                         <div className="col co-l-lg-4 col-md-4 col-sm-6 col-12">
                                             <div className="wpo-project-details-text">
-                                                <span>Početak</span>
-                                                <h2>1. Februar 2024.</h2>
+                                                <span>Početak kursa</span>
+                                                <h2>Februar  2024.</h2>
+                                                <h2>Pon, čet, sub, 18:30h</h2>
                                             </div>
                                         </div>
+                                   
+                                     
                                     </div>
                                 </div>
                                 <div className="wpo-service-single-content">

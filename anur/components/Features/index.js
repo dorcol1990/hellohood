@@ -29,7 +29,7 @@ const Features = (props) => {
          {
             id:'4',
             fIcon:fIcon4,
-            title:'Real time projekti',    
+            title:'Rad na projektima',    
          },
          
      ]

@@ -6,7 +6,7 @@ import PageTitle from '../../components/pagetitle'
 import Portfolio from '../../api/portfolio'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
-import Logo from '/public/images/logo-3.png'
+import Logo from '/public/images/logo2.png'
 import Image from 'next/image';
 
 const PortfolioSlide = () => {

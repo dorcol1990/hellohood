@@ -17,14 +17,14 @@ const ServiceSidebar = (props) => {
         <div className="col-lg-4 col-md-8">
             <div className="wpo-single-sidebar">
                 <div className="wpo-service-widget widget">
-                    <h2>All Services</h2>
+                    <h2>Tehnologije koje učimo na kursu</h2>
                     <ul>
                         {Services.map((service, Sitem) => (
                             <li key={Sitem}><Link onClick={ClickHandler} href={`/service/${service.slug}`} >{service.sTitle}</Link></li>
                         ))}
                     </ul>
                 </div>
-                <div className="wpo-newsletter-widget widget">
+                {/* <div className="wpo-newsletter-widget widget">
                     <h2>Newsletter</h2>
                     <p>Join 20,000 Sabscribers!</p>
                     <form className="form" onSubmit={SubmitHandler}>
@@ -40,11 +40,11 @@ const ServiceSidebar = (props) => {
                             <li key={Sitem}><Image src={service.sinst} alt="" /></li>
                         ))}
                     </ul>
-                </div>
+                </div> */}
                 <div className="wpo-contact-widget widget">
-                    <h2>How We Can <br/> Help You!</h2>
-                    <p>labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                    <Link href="/contact">Contact Us</Link>
+                    <h2>Imate li nekih pitanja?<br/> Pošaljite nam upit još danas!</h2>
+                    <p>Na sve vaše nedoumice odgovorićemo blagovremeno u cilju što bliskije saradnje</p>
+                    <Link href="/contact">Pošaljite nam upit</Link>
                 </div>
             </div>
         </div>

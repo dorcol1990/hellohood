@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import erimg from '/public/images/error-404.png'
+import erimg from '/public/images/logo2.png'
 import Image from 'next/image'
 
 
@@ -19,9 +19,9 @@ const Error = (props) => {
                                 <Image src={erimg} alt=""/>
                             </div>
                             <div className="error-message">
-                                <h3>Oops! Page Not Found!</h3>
-                                <p>We’re sorry but we can’t seem to find the page you requested. This might be because you have typed the web address incorrectly.</p>
-                                <Link onClick={ClickHandler} href="/home" className="theme-btn"> Back to home</Link>
+                                <h3>Izvinjavamo se, stranica nije pronađena</h3>
+                                <p>Žao nam je što moramo da vas obavestimo da ova stranica nije pronađena, molim vas pokušatejte kasnije.</p>
+                                <Link onClick={ClickHandler} href="/home" className="theme-btn"> Vrati se na početnu stranu</Link>
                             </div>
                         </div>
                     </div>

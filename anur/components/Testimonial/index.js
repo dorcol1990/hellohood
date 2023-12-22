@@ -77,7 +77,7 @@ const Testimonial = () => {
                             <span>Reč polaznika</span>
                             <h3>Drugi o nama</h3>
                             <p>"Sjajna ekipa, mnogo rada, i puno znanja! Definitivno pravi izbor!"</p>
-                            <a href="contact.html" className="theme-btn">Kontaktirajte nas</a>
+                            <a href="/contact" className="theme-btn" target="_blank">Kontaktirajte nas</a>
                         </div>
                     </div>
                     <div className="col-xl-8 col-lg-12">

@@ -7,7 +7,7 @@ import FunFact from '../../components/FunFact'
 import Testimonial from '../../components/Testimonial'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
-import Logo from '/public/images/logo.png'
+import Logo from '/public/images/logo3.png'
 
 
 const AboutPage =() => {
